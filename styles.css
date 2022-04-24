@@ -1,0 +1,127 @@
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    background-color: #1f2937;
+}
+.logo{
+    width: 40px;
+    align-items: center;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: antiquewhite;
+    display: flex;
+}
+
+.right-links {
+    display: flex;
+    gap: 16px;
+    width: 370px;
+    align-items: center;
+}
+
+.subheader {
+    display: flex;
+    justify-content: space-around;
+    background-color: #1f2937;
+    color: antiquewhite;
+    padding: 0;
+    padding: 46px 0px;
+}
+
+.left-side, .left-links {
+    display:flex;
+    width: 370px;
+}
+.left-links {
+    display:flex;
+    gap: 20px;
+    align-items: center;
+}
+#titel{
+    font-size: 48px;
+    font-weight: bolder;
+    display: flex;
+}
+
+.center {
+    height: auto;
+    width: 370px;
+    border-radius: 8px;
+}
+
+button{
+    background-color: #3882f6;
+    color: antiquewhite;
+    border-radius: 7px;
+    border-color:#1f2937;
+    padding: 8px 35px;
+    margin-top: 10px;
+}
+
+.image-title {
+    font-weight: bolder;
+    display:flex;
+    justify-content: center;
+    font-size: 36px;
+    padding-top: 36px;
+}
+
+.space{
+    display:flex;
+    flex-direction: column;
+    width: 150px;
+    text-align: center;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 33px;
+    padding: 35px;
+}
+
+.center_2{
+    display:flex;
+    width: 150px;
+    border-radius: 8px;
+}
+
+.quote_1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #E5E7Eb;
+    padding-top: 75px
+}
+
+.quote{
+    font-style: oblique;
+    text-align:left;
+    display: flex;
+    justify-content: center;
+    width: 700px;
+    font-size: 22px;
+}
+
+.test{
+    display:flex;
+    background-color: #E5E7Eb;
+    justify-content: right;
+    padding-right: 620px;
+    padding-top: 10px;
+    padding-bottom: 75px;
+    font-weight: 700;
+}
+
+
