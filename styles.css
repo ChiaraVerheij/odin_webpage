@@ -26,8 +26,8 @@ a {
 
 .right-links {
     display: flex;
-    gap: 16px;
-    width: 370px;
+    gap: 36px;
+    width: 570px;
     align-items: center;
 }
 
@@ -47,17 +47,25 @@ a {
 .left-links {
     display:flex;
     gap: 20px;
-    align-items: center;
+    font-size: 24px;
+    color: #F9FAF8;
 }
 #titel{
     font-size: 48px;
     font-weight: bolder;
     display: flex;
+    color: #F9FAF8;
+}
+
+#sub-text {
+    font-size: 18px;
+    color: #E5E7EB;
 }
 
 .center {
-    height: auto;
-    width: 370px;
+    height: 300px;
+    width: 570px;
+    object-fit:cover;
     border-radius: 8px;
 }
 
@@ -94,6 +102,8 @@ button{
 .center_2{
     display:flex;
     width: 150px;
+    height: 150px;
+    object-fit:cover;
     border-radius: 8px;
 }
 
@@ -122,6 +132,41 @@ button{
     padding-top: 10px;
     padding-bottom: 75px;
     font-weight: 700;
+}
+.sign-up{
+    display:flex;
+    justify-content: center;
+}
+.square{
+    display: flex;
+    width: 1200px;
+    background-color: #3882f6;
+    margin: 60px 120px;
+    padding: 25px 50px;
+    border-radius: 8px;
+    justify-content: space-around;
+}
+
+.head-title {
+    color: #E5E7EB;
+    font-weight:500;
+    font-size: 16px;
+}
+
+.text{
+    color:#E5E7EB;
+}
+
+.footer{
+    display:flex;
+    justify-content: center;
+    padding: 20px;
+    background-color: #1f2937;
+    color: antiquewhite;
+}
+
+.sign{
+    border-color: #E5E7EB;
 }
 
 
